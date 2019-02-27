@@ -7,12 +7,21 @@ html {
   font-family: 'Space Mono', monospace;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 .key-wrapper {
-  min-width: 900px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  
+  margin-top: 25%;
 }
 
 .keys {
