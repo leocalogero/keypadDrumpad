@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Drum Pad</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
+<body>
+
+    <div class="key-wrapper">        
+        <ul class="full keys">
+            <li class="key k192">
+                <div data-key="192">`</div>
+            </li>
+            <li class="key k49">
+                <div data-key="49">1</div>
+            </li>
+            <li class="key k50">
+                <div data-key="50">2</div>
+            </li>
+            <li class="key k51">
+                <div data-key="51">3</div>
+            </li>
+            <li class="key k52">
+                <div data-key="52">4</div>
+            </li>
+            <li class="key k53">
+                <div data-key="53">5</div>
+            </li>
+            <li class="key k54">
+                <div data-key="54">6</div>
+            </li>
+            <li class="key k55">
+                <div data-key="55">7</div>
+            </li>
+            <li class="key k56">
+                <div data-key="56">8</div>
+            </li>
+            <li class="key k57">
+                <div data-key="57">9</div>
+            </li>
+            <li class="key k48">
+                <div data-key="48">0</div>
+            </li>
+            <li class="key k189">
+                <div data-key="189">-</div>
+            </li>
+            <li class="key k187">
+                <div data-key="187">=</div>
+            </li>
+            <li class="key k8 backspace">
+                <div data-key="8">BACKSPACE</div>
+            </li>
+        </ul>
+        <ul class="full keys">
+            <li class="key tab NumLk"> 
+                <div>Tab</div>
+            </li>
+            <li class="key k81">
+                <div data-key="81">Q</div>
+            </li>
+            <li class="key k87">
+                <div data-key="87">W</div>
+            </li>
+            <li class="key k69">
+                <div data-key="69">E</div>
+            </li>
+            <li class="key k82">
+                <div data-key="82">R</div>
+            </li>
+            <li class="key k84">
+                <div data-key="84">T</div>
+            </li>
+            <li class="key k89">
+                <div data-key="89">Y</div>
+            </li>
+            <li class="key k85">
+                <div data-key="85">U</div>
+            </li>
+            <li class="key k73">
+                <div data-key="73">I</div>
+            </li>
+            <li class="key k79">
+                <div data-key="79">O</div>
+            </li>
+            <li class="key k80">
+                <div data-key="80">P</div>
+            </li>
+            <li class="key k219">
+                <div data-key="219">[</div>
+            </li>
+            <li class="key k221">
+                <div data-key="221">]</div>
+            </li>
+            <li class="key k220 tab">
+                <div data-key="220">\</div>
+            </li>
+        </ul>
+        <ul class="full keys">
+            <li class="key k20 caps">
+                <div data-key="20">CAPS LOCK</div>
+            </li>
+            <li class="key k65">
+                <div data-key="65">A</div>
+            </li>
+            <li class="key k83">
+                <div data-key="83">S</div>
+            </li>
+            <li class="key k68">
+                <div data-key="68">D</div>
+            </li>
+            <li class="key k70">
+                <div data-key="70">F</div>
+            </li>
+            <li class="key k71">
+                <div data-key="71">G</div>
+            </li>
+            <li class="key k72">
+                <div data-key="72">H</div>
+            </li>
+            <li class="key k74">
+                <div data-key="74">J</div>
+            </li>
+            <li class="key k75">
+                <div data-key="75">K</div>
+            </li>
+            <li class="key k76">
+                <div data-key="76">L</div>
+            </li>
+            <li class="key k186">
+                <div data-key="186">;</div>
+            </li>
+            <li class="key k222">
+                <div data-key="222">'</div>
+            </li>
+            <li class="key k13 enter">
+                <div data-key="13">ENTER</div>
+            </li>
+        </ul>
+        <ul class="full keys">
+            <li class="key k16 shift">
+                <div data-key="16">SHIFT</div>
+            </li>
+            <li class="key k90">
+                <div data-key="90">Z</div>
+            </li>
+            <li class="key k88">
+                <div data-key="88">X</div>
+            </li>
+            <li class="key k67">
+                <div data-key="67">C</div>
+            </li>
+            <li class="key k86">
+                <div data-key="86">V</div>
+            </li>
+            <li class="key k66">
+                <div data-key="66">B</div>
+            </li>
+            <li class="key k78">
+                <div data-key="78">N</div>
+            </li>
+            <li class="key k77">
+                <div data-key="77">M</div>
+            </li>
+            <li class="key k188">
+                <div data-key="188">,</div>
+            </li>
+            <li class="key k190">
+                <div data-key="190">.</div>
+            </li>
+            <li class="key k191">
+                <div data-key="191">/</div>
+            </li>
+            <li class="key k16 shift">
+                <div data-key="16">SHIFT</div>
+            </li>
+        </ul>
+        <ul class="full keys">
+            <li class="key k17 ctrl">
+                <div data-key="17">CTRL</div>
+            </li>
+            <li class="key alt NumLk">
+                <div>ALT</div>
+            </li>
+            <li class="key k32 space">
+                <div data-key="32">www.leocalogero.com</div>
+            </li>
+            <li class="key alt NumLk">
+                <div>ALT</div>
+            </li>
+            <li class="key k17 ctrl">
+                <div data-key="17">CTRL</div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- first row -->
+
+    <audio data-key="192" src="http://bigsamples.free.fr/d_kit/bdkick/909_kik2.wav"></audio>
+    <audio data-key="49" src="http://bigsamples.free.fr/d_kit/bdkick/909_kik4.wav"></audio>
+    <audio data-key="50" src="http://bigsamples.free.fr/d_kit/bdkick/909_kik5.wav"></audio>
+    <audio data-key="51" src="http://bigsamples.free.fr/d_kit/bdkick/909_kik6.wav"></audio>
+    <audio data-key="52" src="http://bigsamples.free.fr/d_kit/bdkick/909_kik7.wav"></audio>
+    <audio data-key="53" src="http://bigsamples.free.fr/d_kit/bdkick/909kik.wav"></audio>
+    <audio data-key="54" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr01.wav"></audio>
+    <audio data-key="55" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr02.wav"></audio>
+    <audio data-key="56" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr03.wav"></audio>
+    <audio data-key="57" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr04.wav"></audio>
+    <audio data-key="48" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr05.wav"></audio>
+    <audio data-key="189" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr06.wav"></audio>
+    <audio data-key="187" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr07.wav"></audio>
+    <audio data-key="8" src="http://bigsamples.free.fr/d_kit/bdkick/bassdr08.wav"></audio>
+
+    <!-- second row -->
+
+    <audio data-key="81" src="http://bigsamples.free.fr/d_kit/bdkick/bt0a0a7.wav"></audio>
+    <audio data-key="87" src="http://bigsamples.free.fr/d_kit/bdkick/bt0a0da.wav"></audio>
+    <audio data-key="69" src="http://bigsamples.free.fr/d_kit/bdkick/bt7a0d0.wav"></audio>
+    <audio data-key="82" src="http://bigsamples.free.fr/d_kit/bdkick/dcbd1.wav"></audio>
+    <audio data-key="84" src="http://bigsamples.free.fr/d_kit/bdkick/dckick1.wav"></audio>
+    <audio data-key="89" src="http://bigsamples.free.fr/d_kit/bdkick/dckick2.wav"></audio>
+    <audio data-key="85" src="http://bigsamples.free.fr/d_kit/bdkick/kick11.wav"></audio>
+    <audio data-key="73" src="http://bigsamples.free.fr/d_kit/bdkick/kick21.wav"></audio>
+    <audio data-key="79" src="http://bigsamples.free.fr/d_kit/bdkick/kick6.wav"></audio>
+    <audio data-key="80" src="http://bigsamples.free.fr/d_kit/bdkick/kickatb.wav"></audio>
+    <audio data-key="219" src="http://bigsamples.free.fr/d_kit/bdkick/kickatbc.wav"></audio>
+    <audio data-key="221" src="http://bigsamples.free.fr/d_kit/oh/dc_oh_1.wav"></audio>
+    <audio data-key="220" src="http://bigsamples.free.fr/d_kit/oh/hat_4.wav"></audio>
+
+    <!-- third row -->
+
+    <audio data-key="20" src="http://bigsamples.free.fr/d_kit/oh/hat_half.wav"></audio>
+    <audio data-key="65" src="http://bigsamples.free.fr/d_kit/oh/open_hh.wav"></audio>
+    <audio data-key="83" src="http://bigsamples.free.fr/d_kit/oh/open_hh2.wav"></audio>
+    <audio data-key="68" src="http://bigsamples.free.fr/d_kit/oh/ophh01.wav"></audio>
+    <audio data-key="70" src="http://bigsamples.free.fr/d_kit/oh/ophh02.wav"></audio>
+    <audio data-key="71" src="http://bigsamples.free.fr/d_kit/oh/ophh03.wav"></audio>
+    <audio data-key="72" src="http://bigsamples.free.fr/d_kit/oh/xft_oh.wav"></audio>
+    <audio data-key="74" src="http://bigsamples.free.fr/d_kit/clap/clap1.wav"></audio>
+    <audio data-key="75" src="http://bigsamples.free.fr/d_kit/clap/clap2.wav"></audio>
+    <audio data-key="76" src="http://bigsamples.free.fr/d_kit/clap/cr8kclap.wav"></audio>
+    <audio data-key="186" src="http://bigsamples.free.fr/d_kit/clap/dc_clap.wav"></audio>
+    <audio data-key="222" src="http://bigsamples.free.fr/d_kit/clap/handclap.wav"></audio>
+    <audio data-key="13" src="http://bigsamples.free.fr/d_kit/clap/hands.wav"></audio>
+
+    <!-- fourth row -->
+
+    <audio data-key="16" src="http://bigsamples.free.fr/d_kit/hithat/110chh1.wav"></audio>
+    <audio data-key="90" src="http://bigsamples.free.fr/d_kit/hithat/606chat.wav"></audio>
+    <audio data-key="88" src="http://bigsamples.free.fr/d_kit/hithat/606mhat.wav"></audio>
+    <audio data-key="67" src="http://bigsamples.free.fr/d_kit/hithat/909touch.wav"></audio>
+    <audio data-key="86" src="http://bigsamples.free.fr/d_kit/hithat/cr8kchat.wav"></audio>
+    <audio data-key="66" src="http://bigsamples.free.fr/d_kit/hithat/hat_1.wav"></audio>
+    <audio data-key="78" src="http://bigsamples.free.fr/d_kit/hithat/hat_2.wav"></audio>
+    <audio data-key="77" src="http://bigsamples.free.fr/d_kit/hithat/hat_3.wav"></audio>
+    <audio data-key="188" src="http://bigsamples.free.fr/d_kit/hithat/hat_5.wav"></audio>
+    <audio data-key="190" src="http://bigsamples.free.fr/d_kit/hithat/hat_cld.wav"></audio>
+    <audio data-key="191" src="http://bigsamples.free.fr/d_kit/hithat/hat_tite.wav"></audio>
+
+    <!-- fifth row -->
+
+    <audio data-key="17" src="http://bigsamples.free.fr/d_kit/snare/606snare.wav"></audio>
+    <audio data-key="18" src="http://bigsamples.free.fr/d_kit/snare/909_snr2.wav"></audio>
+    <audio data-key="32" src="http://bigsamples.free.fr/d_kit/snare/909_snr3.wav"></audio>
+    <audio data-key="18" src="http://bigsamples.free.fr/d_kit/snare/909snare.wav"></audio>
+
+</body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

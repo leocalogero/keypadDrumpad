@@ -1,0 +1,85 @@
+html {
+  background:#1d1d1d;
+  color: #444;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Space Mono', monospace;
+}
+
+.key-wrapper {
+  min-width: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.keys {
+  margin: 0 5px;
+  padding: 5px;
+  text-align: center;;
+}
+
+.key {
+  width: 50px;;
+}
+
+.caps {
+  width: 110px;
+}
+.enter {
+  width: 110px;
+}
+.backspace {
+  width: 110px;
+}
+.tab {
+  width:80px;
+}
+.shift {
+  width: 140px;
+}
+.ctrl {
+  width: 70px;
+}
+.alt {
+  width: 70px;
+}
+
+.key {
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+ 	-webkit-transition: .5s;
+		 -moz-transition: .5s;
+			 -o-transition: .5s;
+			-ms-transition: .5s;
+			  	transition: .5s;
+}
+
+.NumLk {
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.space {
+  width: 450px;
+}
+
+a {
+  text-decoration: none;
+  color: #444 ;
+}
+
+.active {
+  border: 2px solid white;
+  color: white;
+  -webkit-transition: 0s;
+		 -moz-transition: 0s;
+			-ms-transition: 0s;
+			  	transition: 0s;
+}
